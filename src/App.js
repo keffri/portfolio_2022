@@ -1,8 +1,10 @@
+import Navigation from "./components/Navigation";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Portfolio</h1>
-    </div>
+    <main className="App">
+      <Navigation />
+    </main>
   );
 }
 
