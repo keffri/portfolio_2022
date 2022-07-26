@@ -20,7 +20,6 @@ const Navigation = () => {
           aria-controls="basic-navbar-nav"
           className="navigation__toggle"
         />
-
         <Navbar.Collapse className="navigation__collapse">
           <Nav className="me_auto navigation__nav">
             <Nav.Link href="#about" className="navigation__li">
