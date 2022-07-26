@@ -5,13 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      bg="dark"
-      variant="dark"
-      expand="lg"
-      className="navigation"
-    >
+    <Navbar collapseOnSelect variant="dark" expand="lg" className="navigation">
       <Container className="navigation__container">
         <Navbar.Brand href="#home" className="navigation__brand">
           Keffri Neal
