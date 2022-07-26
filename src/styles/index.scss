@@ -1,18 +1,25 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+html, body, #root, .App {
+    height: 100%;
+}
 
 $darkmode__surface--main: #202020;
 $darkmode__color--main: #ffffffD7;
+
+
 
 /*** NAVBAR ***/
 
 .navigation {
     font-family: Arial, Helvetica, sans-serif;
-    
+    height: 50px;
 }
 
-.navbar-collapse {
-    justify-self: flex-end;
+.section {
+    width: 100%;
+    height: calc(100% - 48px);
+    background-color: #161616;
 }
+
 
 // RESET
 
@@ -123,3 +130,5 @@ input {
     -webkit-appearance: none;
     border-radius: 0;
 }
+
+@import "custom";
