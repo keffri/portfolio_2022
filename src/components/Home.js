@@ -4,10 +4,12 @@ import {
   brands,
   regular,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
+import knp from "../images/knp.png";
 
 const Home = () => {
   return (
     <section className="home">
+      <img src={knp} alt="test" className="home__img" />
       <h1 className="home__title">Keffri Neal</h1>
       <ul className="home__links">
         <ul className="home__links--resume">
@@ -50,6 +52,7 @@ const Home = () => {
           </li>
         </ul>
       </ul>
+      <p className="home__text">Self-taught Web Developer</p>
     </section>
   );
 };
