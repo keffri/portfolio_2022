@@ -5,9 +5,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
   return (
-    <Navbar collapseOnSelect variant="dark" expand="lg" className="navigation">
+    <Navbar
+      collapseOnSelect
+      variant="dark"
+      expand="lg"
+      className="navigation sticky-top"
+    >
       <Container className="navigation__container">
-        <Navbar.Brand href="#home" className="navigation__brand">
+        <Navbar.Brand href="#" className="navigation__brand">
           Keffri Neal
         </Navbar.Brand>
         <Navbar.Toggle
@@ -19,8 +24,8 @@ const Navigation = () => {
             <Nav.Link href="#about" className="navigation__li">
               About
             </Nav.Link>
-            <Nav.Link href="#technologies" className="navigation__li">
-              Technologies
+            <Nav.Link href="#skills" className="navigation__li">
+              Skills
             </Nav.Link>
             <NavDropdown
               title="Projects"
