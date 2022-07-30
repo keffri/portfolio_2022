@@ -1,5 +1,5 @@
 html, body, #root, .App {
-    height: 100%;
+    min-height: 100vh;
 }
 
 // RESET
@@ -112,30 +112,55 @@ input {
     border-radius: 0;
 }
 
-$darkmode__surface--main: #202020;
-$darkmode__color--main: #ffffffD7;
+/*** VARIABLES ***/
+
+$darkmode__surface--primary: #161616;
+$darkmode__surface--secondary: #202020;
+$darkmode__color--primary: #ffffffD7;
+
+
+/*** MIXINS ***/
+
+@mixin section-basic {
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-color: $darkmode__surface--primary;
+    color: $darkmode__color--primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /*** NAVBAR ***/
 
 .navigation {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: $darkmode__surface--main;
+    background-color: $darkmode__surface--secondary;
     box-shadow: 0px 2px 10px 0px #050505;
 }
 
+
+/*** HOME ***/
+
 .home {
     width: 100%;
-    height: calc(100% - 55px);
+    height: calc(100vh - 56px);
     background-color: #161616;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: $darkmode__color--primary;
+
+    &__img {
+        width: 250px;
+    }
 
     &__title {
-        color: $darkmode__color--main;
         font-size: 4.5rem;
+        margin-top: 30px;
     }
 
     &__icon {
@@ -150,7 +175,7 @@ $darkmode__color--main: #ffffffD7;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        color: $darkmode__color--main;
+        color: $darkmode__color--primary;
 
         &--resume {
            padding: 0px;
@@ -164,7 +189,7 @@ $darkmode__color--main: #ffffffD7;
            justify-content: space-between;     
            
            a:link, a:visited {
-            color: $darkmode__color--main;
+            color: $darkmode__color--primary;
             text-decoration: none;
            }
 
@@ -174,9 +199,163 @@ $darkmode__color--main: #ffffffD7;
         
         }
     }
+
+    &__text {
+        margin-top: 30px;
+    }
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+/*** ABOUT ***/
+
+.about {   
+    @include section-basic;
+    // padding-top: 156px;
+   
+ 
+    &__title {
+     text-decoration: underline;
+     margin-bottom: 3rem;
+    }
+
+    &__container {
+        max-width: 890px;
+        display: flex;  
+    }
+
+    &__image {
+        width: 400px;
+        height: 325px;
+        margin: auto;
+    }
 }
 
 
 
+/*** SKILLS ***/
+
+.skills {
+    @include section-basic;
+ 
+    &__title {
+     text-decoration: underline;
+    }
+
+    &__container {
+        margin-top: 2rem;
+    }
+
+    &__svg {
+        width: 50px;
+        margin-right: 1rem;
+        margin-top: 1rem;
+
+        // &:hover {
+        //     transform:translateY(-15px);
+        // }
+    }
+ }
+
+/*** PROJECTS ***/
+
+.projects {
+    @include section-basic;
+
+    &__title {
+        text-decoration: underline;
+        margin-bottom: 3rem;
+    }
+}
+
+/*** PROJECT ***/
+
+.project {
+    width:  75%;
+    height: 500px;
+    border: 2px solid $darkmode__color--primary;
+    border-radius: 5px;
+    display: flex;
+
+    &__title {
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+
+    &__img {
+        width: 60%;
+    }
+
+    &__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__desc {
+        width: 75%;
+        
+    }
+
+    &__icons {
+        display: flex;
+    }
+
+    &__icon {
+        width: 50px;
+        margin: 0px 1rem;
+    }
+
+    &__button {
+        margin: 0px 1rem;
+        background-color: $darkmode__surface--primary;
+        color: $darkmode__color--primary;
+        border: 2px solid $darkmode__color--primary;
+        border-radius: 5px;
+        padding: 4px 12px;
+        transition: 0.5s;
+
+        a:link, a:visited {
+            color: $darkmode__color--primary;
+            text-decoration: none;
+        }
+
+        &:hover {
+            color: $darkmode__surface--primary;
+            background-color: $darkmode__color--primary;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    // .about {
+    //     padding-top: 56px;
+    // }
+
+   
+
+    .about__container {
+      text-align: center;
+        padding: 0px 1rem;
+    }
+
+    .project {
+        flex-direction: column;
+
+        &__img {
+            width: 100%;
+        }
+    }
+
+    
+  }
 
 @import "custom";
