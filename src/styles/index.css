@@ -149,7 +149,7 @@ input {
   margin-right: 5px;
 }
 .home__links {
-  width: 300px;
+  width: 350px;
   height: 60px;
   padding: 0px;
   margin: 0px;
@@ -163,16 +163,16 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.home__links--contact {
+.home__links--socials, .home__links--contact {
   padding: 0px;
   display: flex;
   justify-content: space-between;
 }
-.home__links--contact a:link, .home__links--contact a:visited {
+.home__links--socials a:link, .home__links--socials a:visited, .home__links--contact a:link, .home__links--contact a:visited {
   color: rgba(255, 255, 255, 0.8431372549);
   text-decoration: none;
 }
-.home__links--contact a:hover {
+.home__links--socials a:hover, .home__links--contact a:hover {
   text-decoration: underline;
 }
 .home__text {
@@ -226,7 +226,7 @@ input {
   text-decoration: underline;
 }
 .skills__container {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .skills__svg {
   width: 50px;
@@ -300,16 +300,40 @@ input {
   background-color: rgba(255, 255, 255, 0.8431372549);
 }
 
+/*** CONTACT ***/
+.contact {
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-color: #161616;
+  color: rgba(255, 255, 255, 0.8431372549);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 992px) {
   .about__container {
     text-align: center;
     padding: 0px 1rem;
   }
+  .skills {
+    text-align: center;
+    text-decoration: underline;
+  }
   .project {
     flex-direction: column;
+    height: 525px;
   }
   .project__img {
     width: 100%;
+  }
+  .project__icon {
+    width: 35px;
+    margin: 10px;
+  }
+  .project__buttons {
+    margin-top: 2rem;
   }
 }
 .navbar-collapse {
