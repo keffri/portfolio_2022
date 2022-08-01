@@ -316,7 +316,6 @@ $darkmode__color--primary: #ffffffD7;
     &__button {
         margin: 0px 1rem;
         background-color: $darkmode__surface--primary;
-        color: $darkmode__color--primary;
         border: 2px solid $darkmode__color--primary;
         border-radius: 5px;
         padding: 4px 12px;
@@ -328,7 +327,9 @@ $darkmode__color--primary: #ffffffD7;
         }
 
         &:hover {
-            color: $darkmode__surface--primary;
+            a {
+                color: $darkmode__surface--primary;
+            }
             background-color: $darkmode__color--primary;
         }
     }
@@ -338,6 +339,10 @@ $darkmode__color--primary: #ffffffD7;
 
 .contact {
     @include section-basic;
+
+    &__title {
+        text-decoration: underline;
+    }
 }
 
 
