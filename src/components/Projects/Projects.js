@@ -13,6 +13,7 @@ const Projects = () => {
 
   const projectInfo = [
     {
+      id: "projects/3.1",
       name: "Where's Waldo",
       src: wwp,
       desc: "A Where's Waldo project built using React, and Firebase to verify coordinates of a mouse click against the stored coordinates of a selected character.",
@@ -25,7 +26,7 @@ const Projects = () => {
     <section className="projects">
       <h1 className="projects__title">Projects</h1>
       <Project
-        projectNo="1"
+        id={projectInfo[0].id}
         name={projectInfo[0].name}
         src={projectInfo[0].src}
         desc={projectInfo[0].desc}
