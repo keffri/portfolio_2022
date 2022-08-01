@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   brands,
   regular,
+  solid,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
 import knp from "../images/knp.png";
 
@@ -29,7 +30,7 @@ const Home = () => {
             Resume
           </li>
         </ul>
-        <ul className="home__links--contact">
+        <ul className="home__links--socials">
           <li>
             <FontAwesomeIcon icon={brands("linkedin")} className="home__icon" />
             <a
@@ -49,6 +50,22 @@ const Home = () => {
             >
               GitHub
             </a>
+          </li>
+        </ul>
+        <ul className="home__links--contact">
+          <li>
+            <FontAwesomeIcon
+              icon={regular("envelope")}
+              className="home__icon"
+            />
+            keffri.w.neal@gmail.com
+          </li>
+          <li>
+            <FontAwesomeIcon
+              icon={solid("mobile-screen")}
+              className="home__icon"
+            />
+            604-396-4416
           </li>
         </ul>
       </ul>
