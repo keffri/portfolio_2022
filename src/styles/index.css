@@ -315,6 +315,31 @@ input {
 .contact__title {
   text-decoration: underline;
 }
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.contact input {
+  margin-bottom: 1rem;
+  border: none;
+}
+.contact textarea {
+  resize: none;
+}
+.contact__submit {
+  margin-top: 1rem;
+  background-color: #161616;
+  border: 2px solid rgba(255, 255, 255, 0.8431372549) !important;
+  color: rgba(255, 255, 255, 0.8431372549);
+  border-radius: 5px;
+  padding: 4px 12px;
+  transition: 0.5s;
+}
+.contact__submit:hover {
+  background-color: rgba(255, 255, 255, 0.8431372549);
+  color: #161616;
+}
 
 @media only screen and (max-width: 992px) {
   .about__container {

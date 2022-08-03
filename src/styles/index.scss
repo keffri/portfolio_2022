@@ -343,6 +343,36 @@ $darkmode__color--primary: #ffffffD7;
     &__title {
         text-decoration: underline;
     }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    input {
+        margin-bottom: 1rem;
+        border: none;
+    }
+
+    textarea { 
+        resize: none;
+    }
+
+    &__submit {
+        margin-top: 1rem;
+        background-color: $darkmode__surface--primary;
+        border: 2px solid $darkmode__color--primary !important;
+        color: $darkmode__color--primary;
+        border-radius: 5px;
+        padding: 4px 12px;
+        transition: 0.5s; 
+
+        &:hover {
+            background-color: $darkmode__color--primary;
+            color: $darkmode__surface--primary;
+        }
+    }
 }
 
 
