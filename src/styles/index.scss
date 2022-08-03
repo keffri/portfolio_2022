@@ -375,6 +375,41 @@ $darkmode__color--primary: #ffffffD7;
     }
 }
 
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $darkmode__surface--primary;
+    color: $darkmode__color--primary;
+
+    &__title {
+        border-bottom: 3px solid $darkmode__color--primary;
+        padding-bottom: 0.5rem;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__icon {
+        font-size: 2rem;
+        margin: 0.5rem 1rem;
+    }
+
+    a:link, a:visited {
+        color: $darkmode__color--primary;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    
+}
+
 
 @media only screen and (max-width: 992px) { 
     .about__container {
@@ -404,6 +439,8 @@ $darkmode__color--primary: #ffffffD7;
         &__buttons {
             margin-top: 2rem;
         }
+
+       
     }
 
 
