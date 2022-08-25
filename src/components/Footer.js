@@ -21,13 +21,6 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={brands("github")} className="footer__icon" />
         </a>
-        <a
-          href="https://twitter.com/keffri"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <FontAwesomeIcon icon={brands("twitter")} className="footer__icon" />
-        </a>
       </section>
     </footer>
   );
