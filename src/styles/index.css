@@ -182,7 +182,7 @@ input {
 .anchor {
   display: block;
   position: relative;
-  top: -250px;
+  top: -325px;
   visibility: hidden;
 }
 
@@ -205,10 +205,20 @@ input {
   max-width: 890px;
   display: flex;
 }
+.about__text {
+  padding: 0.5em 0;
+}
 .about__image {
   width: 400px;
   height: 325px;
   margin: auto;
+}
+
+.anchorAbout {
+  display: block;
+  position: relative;
+  top: -325px;
+  visibility: hidden;
 }
 
 /*** SKILLS ***/
@@ -221,6 +231,7 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 5em;
 }
 .skills__title {
   text-decoration: underline;
@@ -234,6 +245,13 @@ input {
   margin-top: 1rem;
 }
 
+.anchorSkills {
+  display: block;
+  position: relative;
+  top: -200px;
+  visibility: hidden;
+}
+
 /*** PROJECTS ***/
 .projects {
   width: 100%;
@@ -244,6 +262,7 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 5em;
 }
 .projects__title {
   text-decoration: underline;
@@ -341,6 +360,14 @@ input {
   color: #161616;
 }
 
+.anchorContact {
+  display: block;
+  position: relative;
+  top: -200px;
+  visibility: hidden;
+}
+
+/**** FOOTER ****/
 .footer {
   width: 100%;
   display: flex;
@@ -349,6 +376,7 @@ input {
   align-items: center;
   background-color: #161616;
   color: rgba(255, 255, 255, 0.8431372549);
+  padding-top: 5em;
 }
 .footer__title {
   border-bottom: 3px solid rgba(255, 255, 255, 0.8431372549);
@@ -374,13 +402,19 @@ input {
     text-align: center;
     padding: 0px 1rem;
   }
+  .about {
+    height: 100vh;
+  }
   .skills {
     text-align: center;
     text-decoration: underline;
   }
   .project {
     flex-direction: column;
-    height: 525px;
+    height: 600px;
+  }
+  .project__info {
+    margin: 2em 0;
   }
   .project__img {
     width: 100%;

@@ -208,7 +208,7 @@ $darkmode__color--primary: #ffffffD7;
 .anchor {
     display: block;
     position: relative;
-    top: -250px;
+    top: -325px;
     visibility: hidden;
 }
 
@@ -229,19 +229,32 @@ $darkmode__color--primary: #ffffffD7;
         display: flex;  
     }
 
+    &__text {
+        padding: 0.5em 0;
+    }
+
     &__image {
         width: 400px;
         height: 325px;
         margin: auto;
     }
+
+    
 }
 
+.anchorAbout {
+    display: block;
+    position: relative;
+    top: -325px;
+    visibility: hidden;
+}
 
 
 /*** SKILLS ***/
 
 .skills {
     @include section-basic;
+    padding-bottom: 5em;
  
     &__title {
      text-decoration: underline;
@@ -262,10 +275,18 @@ $darkmode__color--primary: #ffffffD7;
     }
  }
 
+.anchorSkills {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+}
+
 /*** PROJECTS ***/
 
 .projects {
     @include section-basic;
+    padding-bottom: 5em;
 
     &__title {
         text-decoration: underline;
@@ -281,6 +302,7 @@ $darkmode__color--primary: #ffffffD7;
     border: 2px solid $darkmode__color--primary;
     border-radius: 5px;
     display: flex;
+   
 
     &__title {
         font-size: 1.5rem;
@@ -297,6 +319,7 @@ $darkmode__color--primary: #ffffffD7;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        
     }
 
     &__desc {
@@ -375,6 +398,16 @@ $darkmode__color--primary: #ffffffD7;
     }
 }
 
+.anchorContact {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+}
+
+
+/**** FOOTER ****/
+
 .footer {
     width: 100%;
     display: flex;
@@ -383,6 +416,7 @@ $darkmode__color--primary: #ffffffD7;
     align-items: center;
     background-color: $darkmode__surface--primary;
     color: $darkmode__color--primary;
+    padding-top: 5em;
 
     &__title {
         border-bottom: 3px solid $darkmode__color--primary;
@@ -417,6 +451,10 @@ $darkmode__color--primary: #ffffffD7;
         padding: 0px 1rem;
     }
 
+    .about {
+        height: calc(100vh);
+    }
+
     .skills {
         text-align: center;
         text-decoration: underline;
@@ -424,8 +462,12 @@ $darkmode__color--primary: #ffffffD7;
 
     .project {
         flex-direction: column;
-        height: 525px;
-        
+        height: 600px;
+    
+
+        &__info {
+            margin: 2em 0;
+        }
 
         &__img {
             width: 100%;
