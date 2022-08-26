@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html, body, #root, .App {
   min-height: 100vh;
+  background-color: #161616;
 }
 
 *,
@@ -231,7 +232,6 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5em;
 }
 .skills__title {
   text-decoration: underline;
@@ -402,12 +402,22 @@ input {
     text-align: center;
     padding: 0px 1rem;
   }
+  .home {
+    height: 100vh;
+  }
   .about {
     height: 100vh;
   }
   .skills {
+    height: calc(100vh + 56px);
     text-align: center;
     text-decoration: underline;
+  }
+  .skills__container {
+    margin: 2em 0em;
+  }
+  .contact {
+    height: 100vh;
   }
   .project {
     flex-direction: column;

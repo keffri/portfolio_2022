@@ -1,5 +1,6 @@
 html, body, #root, .App {
     min-height: 100vh;
+    background-color: #161616;
 }
 
 // RESET
@@ -254,7 +255,6 @@ $darkmode__color--primary: #ffffffD7;
 
 .skills {
     @include section-basic;
-    padding-bottom: 5em;
  
     &__title {
      text-decoration: underline;
@@ -451,13 +451,30 @@ $darkmode__color--primary: #ffffffD7;
         padding: 0px 1rem;
     }
 
+    .home {
+        height: 100vh;
+    }
+
     .about {
-        height: calc(100vh);
+        height: 100vh;
     }
 
     .skills {
+        height: calc(100vh + 56px);
         text-align: center;
         text-decoration: underline;
+
+        &__container {
+            margin: 2em 0em;
+        }
+    }
+
+    .projects {
+        // margin-top: 5em;
+    }
+
+    .contact {
+        height: 100vh;
     }
 
     .project {
