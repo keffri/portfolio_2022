@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h1 className="contact__title">Contact</h1>
       <form
         action="https://formsubmit.co/keffri.w.neal@gmail.com"

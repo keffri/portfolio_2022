@@ -6,8 +6,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about">
-      <div className="anchor" id="about"></div>
+    <section className="about" id="about">
       <h1 className="about__title">About</h1>
       <section className="about__container">
         <div className="about__intro">

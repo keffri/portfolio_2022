@@ -2,8 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="skills">
-      <div className="anchor" id="skills"></div>
+    <section className="skills" id="skills">
       <h1 className="skills__title">Skills</h1>
       <section className="skills__section">
         <div className="skills__container">
