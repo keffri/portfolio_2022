@@ -2,7 +2,8 @@ import React from "react";
 
 const Project = (props) => {
   return (
-    <section className="project" id={props.id}>
+    <section className="project">
+      <div className="anchor" id={props.id}></div>
       <img
         className="project__img"
         src={props.src}
@@ -19,11 +20,17 @@ const Project = (props) => {
           })}
         </div>
         <div className="project__buttons">
-          <button className="project__button">
-            <a href={props.liveDemo} target="_blank" rel="noreferrer noopener">
-              Live Demo
-            </a>
-          </button>
+          {props.liveDemo && (
+            <button className="project__button">
+              <a
+                href={props.liveDemo}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live Demo
+              </a>
+            </button>
+          )}
           <button className="project__button">
             <a href={props.viewCode} target="_blank" rel="noreferrer noopener">
               View Code
