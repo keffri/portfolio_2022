@@ -5,12 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      variant="dark"
-      expand="lg"
-      className="navigation sticky-top"
-    >
+    <Navbar variant="dark" expand="lg" className="navigation sticky-top">
       <Container className="navigation__container">
         <Navbar.Brand href="#" className="navigation__brand">
           Keffri Neal
@@ -37,7 +32,7 @@ const Navigation = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#projects/3.2">
-                Workout Tracker
+                Personal Portfolio
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#projects/3.3">
