@@ -124,7 +124,7 @@ $darkmode__color--primary: #ffffffD7;
 
 @mixin section-basic {
     width: 100%;
-    height: calc(100vh - 56px);
+    height: 100vh;
     background-color: $darkmode__surface--primary;
     color: $darkmode__color--primary;
     display: flex;
@@ -148,6 +148,7 @@ $darkmode__color--primary: #ffffffD7;
 .home {
     width: 100%;
     height: calc(100vh - 56px);
+    padding-bottom: 56px;
     background-color: #161616;
     display: flex;
     flex-direction: column;
@@ -287,6 +288,7 @@ $darkmode__color--primary: #ffffffD7;
 .projects {
     @include section-basic;
     padding-bottom: 5em;
+    height: 100%;
 
     &__title {
         text-decoration: underline;
@@ -294,7 +296,17 @@ $darkmode__color--primary: #ffffffD7;
     }
 }
 
+
+
+
 /*** PROJECT ***/
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
 
 .project {
     width:  75%;
@@ -303,7 +315,7 @@ $darkmode__color--primary: #ffffffD7;
     border-radius: 5px;
     display: flex;
    
-
+    
     &__title {
         font-size: 1.5rem;
         text-decoration: underline;
@@ -311,6 +323,7 @@ $darkmode__color--primary: #ffffffD7;
 
     &__img {
         width: 60%;
+        border-right: 2px solid $darkmode__color--primary;
     }
 
     &__info {
@@ -356,6 +369,10 @@ $darkmode__color--primary: #ffffffD7;
             background-color: $darkmode__color--primary;
         }
     }
+}
+
+.project:nth-child(+n+3) {
+    margin-top: 3em;
 }
 
 /*** CONTACT ***/
@@ -469,9 +486,7 @@ $darkmode__color--primary: #ffffffD7;
         }
     }
 
-    .projects {
-        // margin-top: 5em;
-    }
+    
 
     .contact {
         height: 100vh;

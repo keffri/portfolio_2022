@@ -132,6 +132,7 @@ input {
 .home {
   width: 100%;
   height: calc(100vh - 56px);
+  padding-bottom: 56px;
   background-color: #161616;
   display: flex;
   flex-direction: column;
@@ -190,7 +191,7 @@ input {
 /*** ABOUT ***/
 .about {
   width: 100%;
-  height: calc(100vh - 56px);
+  height: 100vh;
   background-color: #161616;
   color: rgba(255, 255, 255, 0.8431372549);
   display: flex;
@@ -225,7 +226,7 @@ input {
 /*** SKILLS ***/
 .skills {
   width: 100%;
-  height: calc(100vh - 56px);
+  height: 100vh;
   background-color: #161616;
   color: rgba(255, 255, 255, 0.8431372549);
   display: flex;
@@ -255,7 +256,7 @@ input {
 /*** PROJECTS ***/
 .projects {
   width: 100%;
-  height: calc(100vh - 56px);
+  height: 100vh;
   background-color: #161616;
   color: rgba(255, 255, 255, 0.8431372549);
   display: flex;
@@ -263,6 +264,7 @@ input {
   align-items: center;
   justify-content: center;
   padding-bottom: 5em;
+  height: 100%;
 }
 .projects__title {
   text-decoration: underline;
@@ -270,6 +272,13 @@ input {
 }
 
 /*** PROJECT ***/
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 .project {
   width: 75%;
   height: 500px;
@@ -283,6 +292,7 @@ input {
 }
 .project__img {
   width: 60%;
+  border-right: 2px solid rgba(255, 255, 255, 0.8431372549);
 }
 .project__info {
   width: 100%;
@@ -320,10 +330,14 @@ input {
   color: #161616;
 }
 
+.project:nth-child(+n+3) {
+  margin-top: 3em;
+}
+
 /*** CONTACT ***/
 .contact {
   width: 100%;
-  height: calc(100vh - 56px);
+  height: 100vh;
   background-color: #161616;
   color: rgba(255, 255, 255, 0.8431372549);
   display: flex;
