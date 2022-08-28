@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69abfee0.css",
+    "main.js": "/static/js/main.e39d8d66.js",
+    "static/media/wheresWaldoPreview.png": "/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
+    "static/media/portfolio2022Preview.png": "/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
+    "static/media/knp.png": "/static/media/knp.9c40178145246d23f4f1.png",
+    "index.html": "/index.html",
+    "main.69abfee0.css.map": "/static/css/main.69abfee0.css.map",
+    "main.e39d8d66.js.map": "/static/js/main.e39d8d66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69abfee0.css",
+    "static/js/main.e39d8d66.js"
+  ]
+}
