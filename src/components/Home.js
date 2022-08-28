@@ -7,6 +7,8 @@ import {
 } from "@fortawesome/fontawesome-svg-core/import.macro";
 import knp from "../images/knp.png";
 
+// ! UPDATE WITH COVER LETTER + RESUME
+
 const Home = () => {
   return (
     <section className="home">

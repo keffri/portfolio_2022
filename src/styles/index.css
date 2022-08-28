@@ -263,6 +263,7 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 5em;
   padding-bottom: 5em;
   height: 100%;
 }
@@ -306,10 +307,12 @@ input {
 }
 .project__icons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .project__icon {
   width: 50px;
-  margin: 0px 1rem;
+  margin: 1rem 1rem;
 }
 .project__button {
   margin: 0px 1rem;
@@ -331,7 +334,7 @@ input {
 }
 
 .project:nth-child(+n+3) {
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 /*** CONTACT ***/
@@ -372,13 +375,6 @@ input {
 .contact__submit:hover {
   background-color: rgba(255, 255, 255, 0.8431372549);
   color: #161616;
-}
-
-.anchorContact {
-  display: block;
-  position: relative;
-  top: -200px;
-  visibility: hidden;
 }
 
 /**** FOOTER ****/
@@ -430,15 +426,13 @@ input {
   .skills__container {
     margin: 2em 0em;
   }
-  .contact {
-    height: 100vh;
-  }
   .project {
     flex-direction: column;
-    height: 600px;
+    height: 700px;
   }
   .project__info {
     margin: 2em 0;
+    flex-grow: 1;
   }
   .project__img {
     width: 100%;
@@ -449,6 +443,9 @@ input {
   }
   .project__buttons {
     margin-top: 2rem;
+  }
+  .contact {
+    height: 100vh;
   }
 }
 .navbar-collapse {
