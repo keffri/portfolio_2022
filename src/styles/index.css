@@ -315,7 +315,7 @@ input {
   margin: 1rem 1rem;
 }
 .project__button {
-  margin: 0px 1rem;
+  margin: 0px 0.5rem;
   background-color: #161616;
   border: 2px solid rgba(255, 255, 255, 0.8431372549);
   border-radius: 5px;
@@ -426,9 +426,12 @@ input {
   .skills__container {
     margin: 2em 0em;
   }
+  .skills__svg {
+    width: 40px;
+  }
   .project {
     flex-direction: column;
-    height: 700px;
+    height: 650px;
   }
   .project__info {
     margin: 2em 0;

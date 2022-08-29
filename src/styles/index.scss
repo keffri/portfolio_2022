@@ -353,7 +353,7 @@ $darkmode__color--primary: #ffffffD7;
     }
 
     &__button {
-        margin: 0px 1rem;
+        margin: 0px 0.5rem;
         background-color: $darkmode__surface--primary;
         border: 2px solid $darkmode__color--primary;
         border-radius: 5px;
@@ -480,13 +480,17 @@ $darkmode__color--primary: #ffffffD7;
         &__container {
             margin: 2em 0em;
         }
+
+        &__svg {
+            width: 40px;
+        }
     }
 
 
 
     .project {
         flex-direction: column;
-        height: 700px;
+        height: 650px;
     
 
         &__info {
