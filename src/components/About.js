@@ -1,8 +1,4 @@
 import React from "react";
-// import Carousel from "react-bootstrap/Carousel";
-// import kncp1 from "../images/kncp1.jpg";
-// import kncp2 from "../images/kncp2.jpg";
-// import kncp3 from "../images/kncp3.jpg";
 
 const About = () => {
   return (
