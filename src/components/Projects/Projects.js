@@ -19,7 +19,7 @@ const Projects = () => {
       id: "projects/3.1",
       name: "Where's Waldo",
       src: wwp,
-      desc: "A Where's Waldo project built using React, and Firebase to verify coordinates of a mouse click against the stored coordinates of a selected character.",
+      desc: "A Where's Waldo project built using React that utilises Firebase to store the coordinates a character which is then used to verify the character's location clicks on coordinates of the web page.",
       liveDemo: "https://keffri.github.io/wheres-waldo/",
       viewCode: "https://github.com/keffri/wheres-waldo",
     },
