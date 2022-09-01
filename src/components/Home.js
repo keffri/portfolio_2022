@@ -28,7 +28,10 @@ const Home = () => {
               icon={regular("file-lines")}
               className="home__icon"
             />
-            <a href="../files/Keffri-Neal-Resume.pdf" target="_blank">
+            <a
+              href="keffri.github.io/files/Keffri-Neal-Resume.pdf"
+              target="_blank"
+            >
               Resume
             </a>
           </li>
