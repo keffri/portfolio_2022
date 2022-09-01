@@ -124,6 +124,11 @@ a:link {
   color: rgba(255, 255, 255, 0.8431372549);
 }
 
+a:hover {
+  color: rgba(255, 255, 255, 0.8431372549);
+  text-decoration: underline;
+}
+
 a:visited {
   color: rgba(255, 255, 255, 0.8431372549);
 }
