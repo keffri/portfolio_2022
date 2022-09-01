@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio_2022/static/css/main.9252fbd7.css",
-    "main.js": "/portfolio_2022/static/js/main.0e8a64ad.js",
+    "main.css": "/portfolio_2022/static/css/main.42f3903e.css",
+    "main.js": "/portfolio_2022/static/js/main.9136ec35.js",
     "static/media/wheresWaldoPreview.png": "/portfolio_2022/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
     "static/media/portfolio2022Preview.png": "/portfolio_2022/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
     "static/media/knp.png": "/portfolio_2022/static/media/knp.9c40178145246d23f4f1.png",
     "index.html": "/portfolio_2022/index.html",
-    "main.9252fbd7.css.map": "/portfolio_2022/static/css/main.9252fbd7.css.map",
-    "main.0e8a64ad.js.map": "/portfolio_2022/static/js/main.0e8a64ad.js.map"
+    "main.42f3903e.css.map": "/portfolio_2022/static/css/main.42f3903e.css.map",
+    "main.9136ec35.js.map": "/portfolio_2022/static/js/main.9136ec35.js.map"
   },
   "entrypoints": [
-    "static/css/main.9252fbd7.css",
-    "static/js/main.0e8a64ad.js"
+    "static/css/main.42f3903e.css",
+    "static/js/main.9136ec35.js"
   ]
 }
