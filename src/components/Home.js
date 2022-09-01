@@ -16,13 +16,13 @@ const Home = () => {
       <h1 className="home__title">Keffri Neal</h1>
       <ul className="home__links">
         <ul className="home__links--resume">
-          <li>
+          {/* <li>
             <FontAwesomeIcon
               icon={regular("file-lines")}
               className="home__icon"
             />
             Cover Letter
-          </li>
+          </li> */}
           <li>
             <FontAwesomeIcon
               icon={regular("file-lines")}
