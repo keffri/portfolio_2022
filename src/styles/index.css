@@ -119,6 +119,15 @@ input {
   border-radius: 0;
 }
 
+a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8431372549);
+}
+
+a:visited {
+  color: rgba(255, 255, 255, 0.8431372549);
+}
+
 /*** VARIABLES ***/
 /*** MIXINS ***/
 /*** NAVBAR ***/
