@@ -1,13 +1,11 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   brands,
   regular,
   solid,
-} from "@fortawesome/fontawesome-svg-core/import.macro";
-import knp from "../images/knp.png";
-
-// ! UPDATE WITH COVER LETTER + RESUME
+} from '@fortawesome/fontawesome-svg-core/import.macro';
+import knp from '../images/knp.png';
 
 const Home = () => {
   return (
@@ -16,16 +14,9 @@ const Home = () => {
       <h1 className="home__title">Keffri Neal</h1>
       <ul className="home__links">
         <ul className="home__links--resume">
-          {/* <li>
-            <FontAwesomeIcon
-              icon={regular("file-lines")}
-              className="home__icon"
-            />
-            Cover Letter
-          </li> */}
           <li>
             <FontAwesomeIcon
-              icon={regular("file-lines")}
+              icon={regular('file-lines')}
               className="home__icon"
             />
             <a
@@ -39,7 +30,7 @@ const Home = () => {
         </ul>
         <ul className="home__links--socials">
           <li>
-            <FontAwesomeIcon icon={brands("linkedin")} className="home__icon" />
+            <FontAwesomeIcon icon={brands('linkedin')} className="home__icon" />
             <a
               href="https://www.linkedin.com/in/keffri/"
               target="_blank"
@@ -49,7 +40,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={brands("github")} className="home__icon" />
+            <FontAwesomeIcon icon={brands('github')} className="home__icon" />
             <a
               href="https://github.com/keffri"
               target="_blank"
@@ -62,14 +53,14 @@ const Home = () => {
         <ul className="home__links--contact">
           <li>
             <FontAwesomeIcon
-              icon={regular("envelope")}
+              icon={regular('envelope')}
               className="home__icon"
             />
             keffri.w.neal@gmail.com
           </li>
           <li>
             <FontAwesomeIcon
-              icon={solid("mobile-screen")}
+              icon={solid('mobile-screen')}
               className="home__icon"
             />
             604-396-4416
