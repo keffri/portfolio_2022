@@ -12,7 +12,7 @@ There are several other practices that I am incorporating into this page while i
 </ul>
 
 <p align-"center>
-    <img src="src/images/portfolio2020Preview.png" width="1000" title="Portfolio 2020 Preview">
+    <img src="src/images/portfolio2022Preview.png" width="1000" title="Portfolio 2020 Preview">
 </p>
 
 ## Author
