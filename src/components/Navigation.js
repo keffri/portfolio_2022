@@ -1,7 +1,7 @@
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navigation = () => {
   return (
@@ -34,6 +34,10 @@ const Navigation = () => {
               <NavDropdown.Item href="#projects/3.2">
                 Personal Portfolio
               </NavDropdown.Item>
+              <NavDropdown.Item href="#projects/3.3">
+                Mini Message Board
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link href="#contact" className="navigation__li">
               Contact
