@@ -3,6 +3,7 @@ import Project from './Project';
 import wwp from '../../images/wheresWaldoPreview.png';
 import pp from '../../images/portfolio2022Preview.png';
 import mmb from '../../images/miniMessageBoardPreview.png';
+import vr from '../../images/veganRecipesPreview.png';
 
 const Projects = () => {
   const devIcons = [
@@ -14,7 +15,8 @@ const Projects = () => {
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg',
   ];
 
   const projectInfo = [
@@ -41,6 +43,14 @@ const Projects = () => {
       desc: 'A Mini Message Board built using NodeJS, Express and Pug. New messages data requested from the /new path with post is used to update the messages on the index page.',
       liveDemo: 'https://blooming-earth-14314.herokuapp.com/',
       viewCode: 'https://github.com/keffri/mini-message-board',
+    },
+    {
+      id: 'projects/3.4',
+      name: 'Vegan Recipes',
+      src: vr,
+      desc: 'A recipe based CRUD application built with NodeJS, Express, PUG, Mongoose and MongoDB.',
+      liveDemo: 'https://frozen-brook-51539.herokuapp.com/cookbook',
+      viewCode: 'https://github.com/keffri/vegan-recipes',
     },
   ];
 
@@ -92,6 +102,22 @@ const Projects = () => {
         ]}
         liveDemo={projectInfo[2].liveDemo}
         viewCode={projectInfo[2].viewCode}
+      />
+      <Project
+        id={projectInfo[3].id}
+        name={projectInfo[3].name}
+        src={projectInfo[3].src}
+        desc={projectInfo[3].desc}
+        icons={[
+          devIcons[0],
+          devIcons[1],
+          devIcons[2],
+          devIcons[7],
+          devIcons[8],
+          devIcons[9],
+        ]}
+        liveDemo={projectInfo[3].liveDemo}
+        viewCode={projectInfo[3].viewCode}
       />
     </section>
   );
