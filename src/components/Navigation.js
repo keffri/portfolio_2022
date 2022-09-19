@@ -34,10 +34,14 @@ const Navigation = () => {
               <NavDropdown.Item href="#projects/3.2">
                 Personal Portfolio
               </NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#projects/3.3">
                 Mini Message Board
               </NavDropdown.Item>
               <NavDropdown.Divider />
+              <NavDropdown.Item href="#projects/3.4">
+                Vegan Recipes
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#contact" className="navigation__li">
               Contact
