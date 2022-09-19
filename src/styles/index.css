@@ -464,14 +464,6 @@ a:visited {
     height: 100vh;
   }
 }
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-a:hover {
-  --bs-link-hover-color: #ffffffD7;
-}
-
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11230,6 +11222,20 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: #ffffffD7;
+}
+.dropdown-menu a {
+  color: #161616;
+}
+
+a:hover {
+  --bs-link-hover-color: #ffffffD7;
 }
 
 /*# sourceMappingURL=index.css.map */

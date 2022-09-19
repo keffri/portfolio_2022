@@ -1,9 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
 .navbar-collapse {
    justify-content: flex-end;   
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: #ffffffD7;
+  
+  a {
+   color: #161616;
+  }
 }
 
 a:hover {
    --bs-link-hover-color: #ffffffD7;
 }
-
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
