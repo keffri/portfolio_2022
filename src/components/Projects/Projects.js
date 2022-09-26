@@ -4,6 +4,7 @@ import wwp from '../../images/wheresWaldoPreview.png';
 import pp from '../../images/portfolio2022Preview.png';
 import mmb from '../../images/miniMessageBoardPreview.png';
 import vr from '../../images/veganRecipesPreview.png';
+import st from '../../images/striveTalkPreview.png';
 
 const Projects = () => {
   const devIcons = [
@@ -51,6 +52,14 @@ const Projects = () => {
       desc: 'A recipe based CRUD application built with NodeJS, Express, PUG, Mongoose and MongoDB.',
       liveDemo: 'https://frozen-brook-51539.herokuapp.com/cookbook',
       viewCode: 'https://github.com/keffri/vegan-recipes',
+    },
+    {
+      id: 'projects/3.5',
+      name: 'Strive Talk',
+      src: st,
+      desc: 'A Guilty Gear themed message board that allows you to sign-up and log-in to post messages. Bcryptjs is used to hash and salt passwords, with Passport.js used to authenticate log-ins. Built with NodeJS, Express, PUG, Mongoose and MongoDB',
+      liveDemo: 'https://ancient-falls-37465.herokuapp.com/',
+      viewCode: 'https://github.com/keffri/strive-talk',
     },
   ];
 
@@ -118,6 +127,22 @@ const Projects = () => {
         ]}
         liveDemo={projectInfo[3].liveDemo}
         viewCode={projectInfo[3].viewCode}
+      />
+      <Project
+        id={projectInfo[4].id}
+        name={projectInfo[4].name}
+        src={projectInfo[4].src}
+        desc={projectInfo[4].desc}
+        icons={[
+          devIcons[0],
+          devIcons[1],
+          devIcons[2],
+          devIcons[7],
+          devIcons[8],
+          devIcons[9],
+        ]}
+        liveDemo={projectInfo[4].liveDemo}
+        viewCode={projectInfo[4].viewCode}
       />
     </section>
   );
