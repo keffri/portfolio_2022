@@ -58,7 +58,7 @@ const Projects = () => {
       name: 'Strive Talk',
       src: st,
       desc: 'A Guilty Gear themed message board that allows you to sign-up and log-in to post messages. Bcryptjs is used to hash and salt passwords, with Passport.js used to authenticate log-ins. Built with NodeJS, Express, PUG, Mongoose and MongoDB',
-      liveDemo: 'https://ancient-falls-37465.herokuapp.com/',
+      liveDemo: 'https://strive-talk.herokuapp.com/',
       viewCode: 'https://github.com/keffri/strive-talk',
     },
   ];
