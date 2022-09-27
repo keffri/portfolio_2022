@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio_2022/static/css/main.64f623da.css",
-    "main.js": "/portfolio_2022/static/js/main.faa4e1d3.js",
+    "main.js": "/portfolio_2022/static/js/main.7addb3f6.js",
     "static/media/wheresWaldoPreview.png": "/portfolio_2022/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
+    "static/media/striveTalkPreview.png": "/portfolio_2022/static/media/striveTalkPreview.3030aa72ab27ed85834e.png",
     "static/media/portfolio2022Preview.png": "/portfolio_2022/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
     "static/media/knp.png": "/portfolio_2022/static/media/knp.9c40178145246d23f4f1.png",
     "static/media/veganRecipesPreview.png": "/portfolio_2022/static/media/veganRecipesPreview.06ba13eee30689468bf1.png",
     "static/media/miniMessageBoardPreview.png": "/portfolio_2022/static/media/miniMessageBoardPreview.0448e5417ce520e4c5ff.png",
     "index.html": "/portfolio_2022/index.html",
     "main.64f623da.css.map": "/portfolio_2022/static/css/main.64f623da.css.map",
-    "main.faa4e1d3.js.map": "/portfolio_2022/static/js/main.faa4e1d3.js.map"
+    "main.7addb3f6.js.map": "/portfolio_2022/static/js/main.7addb3f6.js.map"
   },
   "entrypoints": [
     "static/css/main.64f623da.css",
-    "static/js/main.faa4e1d3.js"
+    "static/js/main.7addb3f6.js"
   ]
 }
