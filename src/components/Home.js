@@ -20,7 +20,7 @@ const Home = () => {
               className="home__icon"
             />
             <a
-              href="https://github.com/keffri/portfolio_2022/blob/d85aeb3f6039d71f2770fb2466db9ef108257dd7/src/files/Keffri-Neal-Resume.pdf"
+              href="https://github.com/keffri/portfolio_2022/blob/master/src/files/Keffri_Neal_Resume.pdf"
               rel="noreferrer"
               target="_blank"
             >
