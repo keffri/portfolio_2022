@@ -11,6 +11,8 @@ There are several other practices that I am incorporating into this page while i
     <li>Dark Mode - Reduces amount of light emitted by screens. Contrasting light and dark colors for better visual experience. Reduces eye strain on users. Conserves battery power.</li>
 </ul>
 
+Check it out here: https://keffri.github.io/portfolio_2022/
+
 <p align-"center>
     <img src="src/images/portfolio2022Preview.png" width="1000" title="Portfolio 2020 Preview">
 </p>
