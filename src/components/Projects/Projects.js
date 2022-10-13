@@ -39,25 +39,17 @@ const Projects = () => {
     },
     {
       id: 'projects/3.3',
-      name: 'Mini Message Board',
-      src: mmb,
-      desc: 'A Mini Message Board built using NodeJS, Express and Pug. New messages data requested from the /new path with post is used to update the messages on the index page.',
-      liveDemo: 'https://blooming-earth-14314.herokuapp.com/',
-      viewCode: 'https://github.com/keffri/mini-message-board',
-    },
-    {
-      id: 'projects/3.4',
       name: 'Vegan Recipes',
       src: vr,
-      desc: 'A recipe based CRUD application built with NodeJS, Express, PUG, Mongoose and MongoDB.',
+      desc: 'A recipe based CRUD application.',
       liveDemo: 'https://frozen-brook-51539.herokuapp.com/cookbook',
       viewCode: 'https://github.com/keffri/vegan-recipes',
     },
     {
-      id: 'projects/3.5',
+      id: 'projects/3.4',
       name: 'Strive Talk',
       src: st,
-      desc: 'A Guilty Gear themed message board that allows you to sign-up and log-in to post messages. Bcryptjs is used to hash and salt passwords, with Passport.js used to authenticate log-ins. Built with NodeJS, Express, PUG, Mongoose and MongoDB',
+      desc: 'A message board that allows you to sign-up and log-in to post messages. Bcryptjs is used to hash and salt passwords, with Passport.js used to authenticate log-ins.',
       liveDemo: 'https://strive-talk.herokuapp.com/',
       viewCode: 'https://github.com/keffri/strive-talk',
     },
@@ -108,6 +100,7 @@ const Projects = () => {
           devIcons[2],
           devIcons[7],
           devIcons[8],
+          devIcons[9],
         ]}
         liveDemo={projectInfo[2].liveDemo}
         viewCode={projectInfo[2].viewCode}
@@ -127,22 +120,6 @@ const Projects = () => {
         ]}
         liveDemo={projectInfo[3].liveDemo}
         viewCode={projectInfo[3].viewCode}
-      />
-      <Project
-        id={projectInfo[4].id}
-        name={projectInfo[4].name}
-        src={projectInfo[4].src}
-        desc={projectInfo[4].desc}
-        icons={[
-          devIcons[0],
-          devIcons[1],
-          devIcons[2],
-          devIcons[7],
-          devIcons[8],
-          devIcons[9],
-        ]}
-        liveDemo={projectInfo[4].liveDemo}
-        viewCode={projectInfo[4].viewCode}
       />
     </section>
   );
