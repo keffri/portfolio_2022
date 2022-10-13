@@ -2,7 +2,6 @@ import React from 'react';
 import Project from './Project';
 import wwp from '../../images/wheresWaldoPreview.png';
 import pp from '../../images/portfolio2022Preview.png';
-import mmb from '../../images/miniMessageBoardPreview.png';
 import vr from '../../images/veganRecipesPreview.png';
 import st from '../../images/striveTalkPreview.png';
 
@@ -41,7 +40,7 @@ const Projects = () => {
       id: 'projects/3.3',
       name: 'Vegan Recipes',
       src: vr,
-      desc: 'A recipe based CRUD application.',
+      desc: 'A CRUD application based on recipes, with the addition of courses and cuisines.',
       liveDemo: 'https://frozen-brook-51539.herokuapp.com/cookbook',
       viewCode: 'https://github.com/keffri/vegan-recipes',
     },
