@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   brands,
   regular,
-  solid,
 } from '@fortawesome/fontawesome-svg-core/import.macro';
 import knp from '../images/knp.png';
 
@@ -13,21 +12,7 @@ const Home = () => {
       <img src={knp} alt="test" className="home__img" />
       <h1 className="home__title">Keffri Neal</h1>
       <ul className="home__links">
-        <ul className="home__links--resume">
-          <li>
-            <FontAwesomeIcon
-              icon={regular('file-lines')}
-              className="home__icon"
-            />
-            <a
-              href="https://github.com/keffri/portfolio_2022/blob/70b390dc5ccb2788af9c13769203fa0798411ccf/src/files/Keffri_Neal_Resume.pdf"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </li>
-        </ul>
+        <ul className="home__links--resume"></ul>
         <ul className="home__links--socials">
           <li>
             <FontAwesomeIcon icon={brands('linkedin')} className="home__icon" />
@@ -53,17 +38,23 @@ const Home = () => {
         <ul className="home__links--contact">
           <li>
             <FontAwesomeIcon
+              icon={regular('file-lines')}
+              className="home__icon"
+            />
+            <a
+              href="https://github.com/keffri/portfolio_2022/blob/70b390dc5ccb2788af9c13769203fa0798411ccf/src/files/Keffri_Neal_Resume.pdf"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <FontAwesomeIcon
               icon={regular('envelope')}
               className="home__icon"
             />
             keffri.w.neal@gmail.com
-          </li>
-          <li>
-            <FontAwesomeIcon
-              icon={solid('mobile-screen')}
-              className="home__icon"
-            />
-            604-396-4416
           </li>
         </ul>
       </ul>
