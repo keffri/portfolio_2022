@@ -36,14 +36,10 @@ const Navigation = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#projects/3.3">
-                Mini Message Board
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#projects/3.4">
                 Vegan Recipes
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#projects/3.5">
+              <NavDropdown.Item href="#projects/3.4">
                 Strive Talk
               </NavDropdown.Item>
             </NavDropdown>
