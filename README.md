@@ -2,8 +2,6 @@
 
 This portfolio is being developed to showcase the technologies that I have learned as well as the ones I am currently learning. This page was developed with the following front-end technologies: HTML, CSS, JavaScript, Sass and Bootstrap.
 
-There are several other practices that I am incorporating into this page while it is under development.
-
 <ul>
     <li>Semantic HTML Elements - Content is clearly defined allowing for better SEO, readability and accessibility.</li>
     <li>Responsive - Built to be responsive on any device that is being used to view the web page. </li>
