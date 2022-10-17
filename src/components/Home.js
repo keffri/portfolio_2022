@@ -42,7 +42,7 @@ const Home = () => {
               className="home__icon"
             />
             <a
-              href="https://github.com/keffri/portfolio_2022/blob/70b390dc5ccb2788af9c13769203fa0798411ccf/src/files/Keffri_Neal_Resume.pdf"
+              href="https://drive.google.com/file/d/1LEWSXjuHKvnCDtU9JS6gZnA4LKu9IRz7/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
             >
