@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.64f623da.css",
-    "main.js": "/static/js/main.cd607720.js",
+    "main.js": "/static/js/main.00cc671e.js",
     "static/media/wheresWaldoPreview.png": "/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
     "static/media/striveTalkPreview.png": "/static/media/striveTalkPreview.3030aa72ab27ed85834e.png",
     "static/media/portfolio2022Preview.png": "/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
@@ -9,10 +9,10 @@
     "static/media/veganRecipesPreview.png": "/static/media/veganRecipesPreview.06ba13eee30689468bf1.png",
     "index.html": "/index.html",
     "main.64f623da.css.map": "/static/css/main.64f623da.css.map",
-    "main.cd607720.js.map": "/static/js/main.cd607720.js.map"
+    "main.00cc671e.js.map": "/static/js/main.00cc671e.js.map"
   },
   "entrypoints": [
     "static/css/main.64f623da.css",
-    "static/js/main.cd607720.js"
+    "static/js/main.00cc671e.js"
   ]
 }
