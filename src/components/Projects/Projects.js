@@ -55,7 +55,7 @@ const Projects = () => {
       viewCode: 'https://github.com/keffri/strive-talk',
     },
     {
-      id: 'projects/3.4',
+      id: 'projects/3.5',
       name: 'Blog API',
       src: ba,
       desc: 'A personal blog that implements RESTful practices to read from and write to MongoDB with HTTP request methods. This is the user front-end for viewing, and posting comments on specific blog posts.',
@@ -63,7 +63,7 @@ const Projects = () => {
       viewCode: 'https://github.com/keffri/blog-api',
     },
     {
-      id: 'projects/3.5',
+      id: 'projects/3.6',
       name: 'Blog API Dashboard',
       src: bad,
       desc: 'A personal blog that implements RESTful practices to read from and write to MongoDB with HTTP request methods. This is the admin front-end for posting, editing and deleting posts and comments.',
