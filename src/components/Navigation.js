@@ -42,6 +42,12 @@ const Navigation = () => {
               <NavDropdown.Item href="#projects/3.4">
                 Strive Talk
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#projects/3.5">Blog API</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#projects/3.6">
+                Blog API Dashboard
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#contact" className="navigation__li">
               Contact
