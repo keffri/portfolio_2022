@@ -58,7 +58,7 @@ const Home = () => {
           </li>
         </ul>
       </ul>
-      <p className="home__text">Self-taught Web Developer</p>
+      <p className="home__text">Web Developer</p>
     </section>
   );
 };
