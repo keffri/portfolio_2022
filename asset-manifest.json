@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.64f623da.css",
-    "main.js": "/static/js/main.af2bafe7.js",
+    "main.js": "/static/js/main.29a8b709.js",
     "static/media/wheresWaldoPreview.png": "/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
     "static/media/striveTalkPreview.png": "/static/media/striveTalkPreview.3030aa72ab27ed85834e.png",
     "static/media/portfolio2022Preview.png": "/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
@@ -11,10 +11,10 @@
     "static/media/blogApiPreview.png": "/static/media/blogApiPreview.2144ae7d3f76fce7e39d.png",
     "index.html": "/index.html",
     "main.64f623da.css.map": "/static/css/main.64f623da.css.map",
-    "main.af2bafe7.js.map": "/static/js/main.af2bafe7.js.map"
+    "main.29a8b709.js.map": "/static/js/main.29a8b709.js.map"
   },
   "entrypoints": [
     "static/css/main.64f623da.css",
-    "static/js/main.af2bafe7.js"
+    "static/js/main.29a8b709.js"
   ]
 }
