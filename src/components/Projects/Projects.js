@@ -43,7 +43,7 @@ const Projects = () => {
       name: 'Vegan Recipes',
       src: vr,
       desc: 'A CRUD application based on recipes, with the addition of courses and cuisines.',
-      liveDemo: 'https://frozen-brook-51539.herokuapp.com/cookbook',
+      liveDemo: 'https://keffri-vegan-recipes.herokuapp.com/',
       viewCode: 'https://github.com/keffri/vegan-recipes',
     },
     {
