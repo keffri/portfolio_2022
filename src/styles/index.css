@@ -1,5 +1,8 @@
 @charset "UTF-8";
-html, body, #root, .App {
+html,
+body,
+#root,
+.App {
   min-height: 100vh;
   background-color: #161616;
 }
@@ -183,7 +186,9 @@ a:visited {
   display: flex;
   justify-content: space-between;
 }
-.home__links--socials a:link, .home__links--socials a:visited, .home__links--contact a:link, .home__links--contact a:visited {
+.home__links--socials a:link,
+.home__links--socials a:visited, .home__links--contact a:link,
+.home__links--contact a:visited {
   color: rgba(255, 255, 255, 0.8431372549);
   text-decoration: none;
 }
@@ -335,7 +340,8 @@ a:visited {
   padding: 4px 12px;
   transition: 0.5s;
 }
-.project__button a:link, .project__button a:visited {
+.project__button a:link,
+.project__button a:visited {
   color: rgba(255, 255, 255, 0.8431372549);
   text-decoration: none;
 }
@@ -346,7 +352,7 @@ a:visited {
   color: #161616;
 }
 
-.project:nth-child(+n+3) {
+.project:nth-child(n+2) {
   margin-top: 5em;
 }
 
@@ -413,7 +419,8 @@ a:visited {
   font-size: 2rem;
   margin: 0.5rem 1rem;
 }
-.footer a:link, .footer a:visited {
+.footer a:link,
+.footer a:visited {
   color: rgba(255, 255, 255, 0.8431372549);
 }
 .footer a:hover {
