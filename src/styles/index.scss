@@ -149,6 +149,10 @@ $darkmode__color--primary: #ffffffd7;
   font-family: Arial, Helvetica, sans-serif;
   background-color: $darkmode__surface--secondary;
   box-shadow: 0px 2px 10px 0px #050505;
+
+  a {
+    color: $darkmode__color--primary;
+  }
 }
 
 /*** HOME ***/
@@ -157,7 +161,7 @@ $darkmode__color--primary: #ffffffd7;
   width: 100%;
   height: calc(100vh - 56px);
   padding-bottom: 56px;
-  background-color: #161616;
+  background-color: $darkmode__surface--primary;
   display: flex;
   flex-direction: column;
   justify-content: center;
