@@ -3,7 +3,6 @@ body,
 #root,
 .App {
   min-height: 100vh;
-  background-color: #161616;
 }
 
 // RESET
@@ -293,7 +292,7 @@ $darkmode__color--primary: #ffffffd7;
 
 .projects {
   @include section-basic;
-  margin-top: 5em;
+  padding-top: 5em;
   padding-bottom: 5em;
   height: 100%;
 
@@ -376,7 +375,7 @@ $darkmode__color--primary: #ffffffd7;
 }
 
 .project:nth-child(n + 2) {
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 /*** CONTACT ***/
