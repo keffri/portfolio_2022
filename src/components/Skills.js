@@ -1,6 +1,5 @@
 import React from 'react';
 import rtl from '../images/rtl-logo.png';
-import pcss from '../images/postcss-logo.svg';
 
 const Skills = () => {
   return (
@@ -591,12 +590,6 @@ const Skills = () => {
               fill="#38b2ac"
             ></path>
           </svg>
-          <img
-            src={pcss}
-            alt="post-css logo"
-            className="skills__svg"
-            title="PostCSS"
-          ></img>
         </div>
       </section>
     </section>
