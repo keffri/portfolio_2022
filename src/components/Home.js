@@ -9,7 +9,7 @@ import knp from '../images/knp.png';
 const Home = () => {
   return (
     <section className="home">
-      <img src={knp} alt="test" className="home__img" />
+      <img src={knp} alt="personal" className="home__img" />
       <h1 className="home__title">Keffri Neal</h1>
       <ul className="home__links">
         <ul className="home__links--resume"></ul>
