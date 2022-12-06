@@ -130,8 +130,11 @@ $darkmode__surface--primary: #161616;
 $darkmode__surface--secondary: #202020;
 $darkmode__color--primary: #ffffffd7;
 
-/*** MIXINS ***/
+$lightmode__surface--primary: #cccccc;
+$lightmode__surface--secondary: #dddddd;
+$lightmode__color--primary: #202020;
 
+/*** MIXINS ***/
 @mixin section-basic {
   width: 100%;
   height: 100vh;
