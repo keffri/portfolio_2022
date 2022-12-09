@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b77e54c.css",
-    "main.js": "/static/js/main.0222f4ad.js",
+    "main.js": "/static/js/main.575d12e2.js",
     "static/media/wheresWaldoPreview.png": "/static/media/wheresWaldoPreview.25e8176aa717b8f50839.png",
     "static/media/striveTalkPreview.png": "/static/media/striveTalkPreview.3030aa72ab27ed85834e.png",
     "static/media/portfolio2022Preview.png": "/static/media/portfolio2022Preview.3e54032d53b099628ed2.png",
@@ -12,10 +12,10 @@
     "static/media/cypress-logo.png": "/static/media/cypress-logo.ee63a94cdfda96768970.png",
     "index.html": "/index.html",
     "main.3b77e54c.css.map": "/static/css/main.3b77e54c.css.map",
-    "main.0222f4ad.js.map": "/static/js/main.0222f4ad.js.map"
+    "main.575d12e2.js.map": "/static/js/main.575d12e2.js.map"
   },
   "entrypoints": [
     "static/css/main.3b77e54c.css",
-    "static/js/main.0222f4ad.js"
+    "static/js/main.575d12e2.js"
   ]
 }
