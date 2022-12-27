@@ -11236,14 +11236,14 @@ textarea.form-control-lg {
 }
 
 .dropdown-menu {
-  --bs-dropdown-bg: #ffffffD7;
+  --bs-dropdown-bg: #ffffff;
 }
 .dropdown-menu a {
   color: #161616;
 }
 
 a:hover {
-  --bs-link-hover-color: #ffffffD7;
+  --bs-link-hover-color: #ffffffd7;
 }
 
 /*# sourceMappingURL=index.css.map */
