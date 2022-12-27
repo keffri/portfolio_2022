@@ -2,7 +2,6 @@ import React from 'react';
 import Project from './Project';
 import wwp from '../../images/wheresWaldoPreview.png';
 import pp from '../../images/portfolio2022Preview.png';
-import vr from '../../images/veganRecipesPreview.png';
 import st from '../../images/striveTalkPreview.png';
 import ba from '../../images/blogApiPreview.png';
 import bad from '../../images/blogApiDashboardPreview.png';
@@ -40,14 +39,6 @@ const Projects = () => {
     },
     {
       id: 'projects/3.3',
-      name: 'Vegan Recipes',
-      src: vr,
-      desc: 'A CRUD application based on recipes, with the addition of courses and cuisines.',
-      liveDemo: 'https://keffri-vegan-recipes.herokuapp.com/',
-      viewCode: 'https://github.com/keffri/vegan-recipes',
-    },
-    {
-      id: 'projects/3.4',
       name: 'Strive Talk',
       src: st,
       desc: 'A message board that allows you to sign-up and log-in to post messages. Bcryptjs is used to hash and salt passwords, with Passport.js used to authenticate log-ins.',
@@ -55,7 +46,7 @@ const Projects = () => {
       viewCode: 'https://github.com/keffri/strive-talk',
     },
     {
-      id: 'projects/3.5',
+      id: 'projects/3.4',
       name: 'Blog API',
       src: ba,
       desc: 'A personal blog that implements RESTful practices to read from and write to MongoDB with HTTP request methods. This is the user front-end for viewing, and posting comments on specific blog posts.',
@@ -63,7 +54,7 @@ const Projects = () => {
       viewCode: 'https://github.com/keffri/blog-api',
     },
     {
-      id: 'projects/3.6',
+      id: 'projects/3.5',
       name: 'Blog API Dashboard',
       src: bad,
       desc: 'A personal blog that implements RESTful practices to read from and write to MongoDB with HTTP request methods. This is the admin front-end for posting, editing and deleting posts and comments.',
@@ -153,22 +144,6 @@ const Projects = () => {
         ]}
         liveDemo={projectInfo[4].liveDemo}
         viewCode={projectInfo[4].viewCode}
-      />
-      <Project
-        id={projectInfo[5].id}
-        name={projectInfo[5].name}
-        src={projectInfo[5].src}
-        desc={projectInfo[5].desc}
-        icons={[
-          devIcons[0],
-          devIcons[1],
-          devIcons[2],
-          devIcons[7],
-          devIcons[8],
-          devIcons[9],
-        ]}
-        liveDemo={projectInfo[5].liveDemo}
-        viewCode={projectInfo[5].viewCode}
       />
     </section>
   );
