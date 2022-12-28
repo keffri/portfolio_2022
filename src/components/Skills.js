@@ -1,6 +1,7 @@
 import React from 'react';
 import rtl from '../images/rtl-logo.png';
 import cy from '../images/cypress-logo.png';
+import pm from '../images/postman.svg';
 
 const Skills = () => {
   return (
@@ -249,6 +250,12 @@ const Skills = () => {
               fill="#6762A6"
             ></path>
           </svg>
+          <img
+            src={pm}
+            alt="postman logo"
+            className="skills__svg"
+            title="Postman"
+          />
           <svg viewBox="0 0 128 128" className="skills__svg">
             <title>GIMP</title>
             <radialGradient
