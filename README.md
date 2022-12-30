@@ -1,3 +1,5 @@
+Check it out here: <a href="https://keffri.com">keffri.com</a>
+
 <h1>Keffri Neal - Personal Portfolio Project</h1>
 
 This portfolio is being developed to showcase the technologies that I have learned as well as the ones I am currently learning. This page was developed with the following front-end technologies: HTML, CSS, JavaScript, Sass and Bootstrap.
@@ -8,8 +10,6 @@ This portfolio is being developed to showcase the technologies that I have learn
     <li>BEM CSS Methodology - Organizing and streamlining my CSS class names allows for more efficient coding, better readability and easier integration for other developers.</li>
     <li>Dark Mode - Reduces amount of light emitted by screens. Contrasting light and dark colors for better visual experience. Reduces eye strain on users. Conserves battery power.</li>
 </ul>
-
-Check it out here: <a href="https://keffri.com">keffri.com</a>
 
 <p align-"center>
     <img src="src/images/portfolio2022Preview.png" width="1000" title="Portfolio 2020 Preview">
