@@ -42,7 +42,7 @@ const Home = () => {
               className="home__icon"
             />
             <a
-              href="https://drive.google.com/file/d/1Yyjlc1N8eiCuHFl4yPmHreazyWf7wtzB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1sgmx9hBdSu-g13lq-FQ1stH-FC2KEbcE/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
             >
