@@ -8,15 +8,16 @@ const About = () => {
         <div className="about__intro">
           <p className="about__text">
             My name is Keffri Neal and I am a web developer from Port Coquitlam,
-            Canada. I started learning web development at the beginning of
-            COVID-19 quarantine back in March 2020, and I have been continuing
-            to learn ever since. When it comes to coding I enjoy problem
-            solving, being creative and getting to see web pages come to life.
+            B.C. I started learning web development in March of 2020, and I have
+            been continuing to learn and improve ever since. When it comes to
+            coding I enjoy problem solving, being creative and getting to see
+            web pages come to life.
           </p>
           <p className="about__text">
             I graduated from the University of Kentucky with a B.A. in
-            Psychology. I attended on a full athletic scholarship as a track and
-            cross country runner for the four years that I attended.
+            Psychology. I attended the university on a full athletic scholarship
+            as a track and cross country runner for the four years that I
+            attended.
           </p>
           <p className="about__text">
             When I am not coding I enjoy spending my free time exercising,
