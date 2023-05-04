@@ -25,7 +25,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={brands('github')} className="footer__icon" />
         </a>
         <a
-          href="https://drive.google.com/file/d/1sgmx9hBdSu-g13lq-FQ1stH-FC2KEbcE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Yyjlc1N8eiCuHFl4yPmHreazyWf7wtzB/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >
